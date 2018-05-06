@@ -49,7 +49,7 @@
                 </div>
                 <div class="product_title1" v-html="item.title1"></div>
                 <div class="product_txt">
-                    <div v-html="txt(item.txt)"></div>
+                    <div v-html="item.txt"></div>
                 </div>
             </div>
         </div>
