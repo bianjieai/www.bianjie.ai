@@ -7,7 +7,7 @@
                      @click="is=false"/>
                 <img class="logo" @click="scroll(0)" src="../assets/logo.png"/>
             </div>
-            <img class="index_logo" :src="img($store.state.messages.index.logo[1].src)"/>
+            <img class="index_logo" :src="img($store.state.messages.index.logo[2].src)"/>
             <div class="index_down" v-show="is">
                 <router-link :key="index" :to="item.href" tag="div" @click="hrefLink(item)"
                              v-for="(item,index) in $store.state.messages.index.title">
@@ -57,15 +57,7 @@
                             <span>{{$store.state.messages.irisnetInfo.irisnetWebsiteUrl}}</span>
                         </a>
                     </div>
-                <p class="irisnet_title">{{$store.state.messages.irisnetInfo.title}}</p>
-                <p class="irisnet_info">{{$store.state.messages.irisnetInfo.irisnetInfoItem}}</p>
-                <p class="irisnet_info">{{$store.state.messages.irisnetInfo.irisnetInfoIntroduce}}</p>
-                <div class="irisnet_link_btn">
-                    <a href="https://www.irisnet.org/" target="_blank">
-                        <span>{{$store.state.messages.irisnetInfo.irisnetWebsiteUrl}}</span>
-                    </a>
                 </div>
-            </div>
             <div class="index_title" id="#product">
                 {{$store.state.messages.product.title}}
                 <div></div>
@@ -173,6 +165,7 @@
             版权所有 © 2017上海边界智能科技有限公司 <a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备17020986号</a>
         </div>
     </div>
+</div>
 </template>
 
 <script>

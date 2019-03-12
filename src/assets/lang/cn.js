@@ -2,17 +2,18 @@ export const message = {
     "index": {
         "logo": [
             {
-                "src": '../public/banner_01.png',
+                "src": '../public/index_logo_cn1.jpg',
                 "active": true
+            },
+            {
+                "src": '../public/banner_01.png',
+                "active": false
             },
             {
                 "src": '../public/index_logo_cn.png',
                 "active": false
             },
-            {
-                "src": '../public/index_logo_cn1.jpg',
-                "active": false
-            },
+           
         ],
         "title": [
             {"txt": "关于我们", "href": "/#about"},
@@ -134,9 +135,9 @@ export const message = {
                     "href": "https://www.wancloud.io/"
                 },
                 {
-                    "img": "../public/partner/cosmos.png",
+                    "img": "../public/partner/cosmos.less.png",
                     "img_selected": "../public/partner/cosmos2.png",
-                    "href": "https://cosmos.network/"
+                    "href": "https://cosmos.less.network/"
                 },
             ],
             [
@@ -194,8 +195,8 @@ export const message = {
             "旨在维护Cosmos网络的安全性，促进生态发展！"
         ],
         'irisnetHref':"https://www.irisnet.org/",
-        "btnText":"了解Validator",
-        "btnHref":"https://forum.cosmos.network/t/validator-candidates-websites/127",
+        "btnText":"委托 ATOM",
+        "btnHref":"https://forum.cosmos.less.network/t/validator-candidates-websites/127",
         "headerValidatorBtnText":"Cosmos验证人"
     },
     "contact": {
