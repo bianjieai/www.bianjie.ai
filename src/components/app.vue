@@ -38,11 +38,11 @@
                 <div class="core_txt_title">
                     <span class="core_txt_title_info">{{$store.state.messages.core.secondaryTitle}}</span>
                 </div>
-                <p>{{$store.state.messages.core.service}}</p>
+                <p>{{$store.state.messages.core.infomation}}</p>
                 <div class="core_txt_title">
                     <span class="core_txt_title_info_bottom">{{$store.state.messages.core.technologyTitle}}</span>
                 </div>
-                <p>{{$store.state.messages.core.technology}}</p>
+                <p>{{$store.state.messages.core.technologyInfomation}}</p>
             </div>
             <div class="irisnet_info_container">
                 <div class="mobilebanner_img_container">
@@ -57,6 +57,13 @@
                             <span>{{$store.state.messages.irisnetInfo.irisnetWebsiteUrl}}</span>
                         </a>
                     </div>
+                <p class="irisnet_title">{{$store.state.messages.irisnetInfo.title}}</p>
+                <p class="irisnet_info">{{$store.state.messages.irisnetInfo.irisnetInfoItem}}</p>
+                <p class="irisnet_info">{{$store.state.messages.irisnetInfo.irisnetInfoIntroduce}}</p>
+                <div class="irisnet_link_btn">
+                    <a href="https://www.irisnet.org/" target="_blank">
+                        <span>{{$store.state.messages.irisnetInfo.irisnetWebsiteUrl}}</span>
+                    </a>
                 </div>
             </div>
             <div class="index_title" id="#product">
